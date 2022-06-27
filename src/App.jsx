@@ -453,22 +453,22 @@ function App() {
 
 
         {/* <!-- PORTFOLIO POPUP --> */}
-        <div class="portfolio_popup">
-          <div class="portfolio_popup-inner">
-            <div class="portfolio_popup-content grid">
-              <span class="portfolio_popup-close"><i class="uil uil-times"></i></span>
-              <div class="pp_thumbnail">
-                <img src="./assets/em breve.webp" alt="" class="portfolio_popup-img" />
+        <div className="portfolio_popup">
+          <div className="portfolio_popup-inner">
+            <div className="portfolio_popup-content grid">
+              <span className="portfolio_popup-close"><i className="uil uil-times"></i></span>
+              <div className="pp_thumbnail">
+                <img src="./assets/em breve.webp" alt="" className="portfolio_popup-img" />
               </div>
-              <div class="portfolio_popup-info">
-                <div class="portfolio_popup-subtitle">Feature - <span>Design</span></div>
-                <div class="portfolio_popup-body">
-                  <h3 class="details_title">
+              <div className="portfolio_popup-info">
+                <div className="portfolio_popup-subtitle">Feature - <span>Design</span></div>
+                <div className="portfolio_popup-body">
+                  <h3 className="details_title">
                     Lorem ipsum dolor sit amet consectetur.</h3>
-                  <p class="details_description">
+                  <p className="details_description">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus maiores
                     exercitationem numquam.</p>
-                  <ul class="details_info">
+                  <ul className="details_info">
                     <li>Criado - <span>19 Jun 2022</span></li>
                     <li>Tecnologias - <span>html css javascript</span></li>
                     <li>Função - <span>FrontEnd</span></li>
@@ -482,49 +482,49 @@ function App() {
         {/* <!-- FIM PORTFOLIO POPUP --> */}
 
         {/* <!-- =========== Service ========  --> */}
-        <section class="services section" id="services">
-          <h2 data-heading="Meus Serviços" class="section_title">O que eu ofereço</h2>
-          <div class="services_container container grid">
+        <section className="services section" id="services">
+          <h2 data-heading="Meus Serviços" className="section_title">O que eu ofereço</h2>
+          <div className="services_container container grid">
 
             {/* <!-- services 1 --> */}
-            <div class="services_content">
+            <div className="services_content">
               <div>
-                <i class="uil uil-web-grid services_icon"></i>
-                <h3 class="services_title">Desenvolvimento <br /> WEB</h3>
+                <i className="uil uil-web-grid services_icon"></i>
+                <h3 className="services_title">Desenvolvimento <br /> WEB</h3>
               </div>
-              <span class="services_button">
-                Veja Mais <i class="uil uil-arrow-right services_button-icon"></i>
+              <span className="services_button">
+                Veja Mais <i className="uil uil-arrow-right services_button-icon"></i>
               </span>
 
               {/* <!-- descriptions services 1 --> */}
-              <div class="services_modal">
-                <div class="services_modal-content">
-                  <i class="uil uil-times services_modal-close"></i>
+              <div className="services_modal">
+                <div className="services_modal-content">
+                  <i className="uil uil-times services_modal-close"></i>
 
-                  <h3 class="services_modal-title">Desenvolvimento WEB</h3>
-                  <p class="services_modal-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum
+                  <h3 className="services_modal-title">Desenvolvimento WEB</h3>
+                  <p className="services_modal-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum
                     dolor, vitae aliquam officiis eveniet corrupti. </p>
 
-                  <ul class="services_modal-services grid">
-                    <li class="services_modal-service">
-                      <i class="uil uil-check-circle services_modal-icon"></i>
-                      <p class="services_modal-info">Desenvolvimento das interfaces de usuario.</p>
+                  <ul className="services_modal-services grid">
+                    <li className="services_modal-service">
+                      <i className="uil uil-check-circle services_modal-icon"></i>
+                      <p className="services_modal-info">Desenvolvimento das interfaces de usuario.</p>
                     </li>
-                    <li class="services_modal-service">
-                      <i class="uil uil-check-circle services_modal-icon"></i>
-                      <p class="services_modal-info">Desenvolvimento de Páginas Web.</p>
+                    <li className="services_modal-service">
+                      <i className="uil uil-check-circle services_modal-icon"></i>
+                      <p className="services_modal-info">Desenvolvimento de Páginas Web.</p>
                     </li>
-                    <li class="services_modal-service">
-                      <i class="uil uil-check-circle services_modal-icon"></i>
-                      <p class="services_modal-info">Criação de Elemtos UX com Interação.</p>
+                    <li className="services_modal-service">
+                      <i className="uil uil-check-circle services_modal-icon"></i>
+                      <p className="services_modal-info">Criação de Elemtos UX com Interação.</p>
                     </li>
-                    <li class="services_modal-service">
-                      <i class="uil uil-check-circle services_modal-icon"></i>
-                      <p class="services_modal-info">Desenvolvimento de Formulários</p>
+                    <li className="services_modal-service">
+                      <i className="uil uil-check-circle services_modal-icon"></i>
+                      <p className="services_modal-info">Desenvolvimento de Formulários</p>
                     </li>
-                    <li class="services_modal-service">
-                      <i class="uil uil-check-circle services_modal-icon"></i>
-                      <p class="services_modal-info">Desiner e Mockups de produtos para empresas.</p>
+                    <li className="services_modal-service">
+                      <i className="uil uil-check-circle services_modal-icon"></i>
+                      <p className="services_modal-info">Desiner e Mockups de produtos para empresas.</p>
                     </li>
                   </ul>
                 </div>
@@ -532,44 +532,44 @@ function App() {
             </div>
 
             {/* <!-- services 2 --> */}
-            <div class="services_content">
+            <div className="services_content">
               <div>
-                <i class="uil uil-arrow services_icon"></i>
-                <h3 class="services_title">Desenvolvimento <br /> Backend</h3>
+                <i className="uil uil-arrow services_icon"></i>
+                <h3 className="services_title">Desenvolvimento <br /> Backend</h3>
               </div>
-              <span class="services_button">
-                Veja Mais <i class="uil uil-arrow-right services_button-icon"></i>
+              <span className="services_button">
+                Veja Mais <i className="uil uil-arrow-right services_button-icon"></i>
               </span>
 
               {/* <!-- descriptions services 2 --> */}
-              <div class="services_modal">
-                <div class="services_modal-content">
-                  <i class="uil uil-times services_modal-close"></i>
+              <div className="services_modal">
+                <div className="services_modal-content">
+                  <i className="uil uil-times services_modal-close"></i>
 
-                  <h3 class="services_modal-title">Desenvolvimento Backend</h3>
-                  <p class="services_modal-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum
+                  <h3 className="services_modal-title">Desenvolvimento Backend</h3>
+                  <p className="services_modal-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum
                     dolor, vitae aliquam officiis eveniet corrupti. </p>
 
-                  <ul class="services_modal-services grid">
-                    <li class="services_modal-service">
-                      <i class="uil uil-check-circle services_modal-icon"></i>
-                      <p class="services_modal-info">Desenvolvimento das interfaces de usuario.</p>
+                  <ul className="services_modal-services grid">
+                    <li className="services_modal-service">
+                      <i className="uil uil-check-circle services_modal-icon"></i>
+                      <p className="services_modal-info">Desenvolvimento das interfaces de usuario.</p>
                     </li>
-                    <li class="services_modal-service">
-                      <i class="uil uil-check-circle services_modal-icon"></i>
-                      <p class="services_modal-info">Desenvolvimento de Páginas Web.</p>
+                    <li className="services_modal-service">
+                      <i className="uil uil-check-circle services_modal-icon"></i>
+                      <p className="services_modal-info">Desenvolvimento de Páginas Web.</p>
                     </li>
-                    <li class="services_modal-service">
-                      <i class="uil uil-check-circle services_modal-icon"></i>
-                      <p class="services_modal-info">Criação de Elemtos UX com Interação.</p>
+                    <li className="services_modal-service">
+                      <i className="uil uil-check-circle services_modal-icon"></i>
+                      <p className="services_modal-info">Criação de Elemtos UX com Interação.</p>
                     </li>
-                    <li class="services_modal-service">
-                      <i class="uil uil-check-circle services_modal-icon"></i>
-                      <p class="services_modal-info">Desenvolvimento de Formulários</p>
+                    <li className="services_modal-service">
+                      <i className="uil uil-check-circle services_modal-icon"></i>
+                      <p className="services_modal-info">Desenvolvimento de Formulários</p>
                     </li>
-                    <li class="services_modal-service">
-                      <i class="uil uil-check-circle services_modal-icon"></i>
-                      <p class="services_modal-info">Desiner e Mockups de produtos para empresas.</p>
+                    <li className="services_modal-service">
+                      <i className="uil uil-check-circle services_modal-icon"></i>
+                      <p className="services_modal-info">Desiner e Mockups de produtos para empresas.</p>
                     </li>
                   </ul>
                 </div>
@@ -577,44 +577,44 @@ function App() {
             </div>
 
             {/* <!-- services 3 --> */}
-            <div class="services_content">
+            <div className="services_content">
               <div>
-                <i class="uil uil-edit services_icon"></i>
-                <h3 class="services_title">Desenvolvimento <br /> Mobile</h3>
+                <i className="uil uil-edit services_icon"></i>
+                <h3 className="services_title">Desenvolvimento <br /> Mobile</h3>
               </div>
-              <span class="services_button">
-                Veja Mais <i class="uil uil-arrow-right services_button-icon"></i>
+              <span className="services_button">
+                Veja Mais <i className="uil uil-arrow-right services_button-icon"></i>
               </span>
 
               {/* <!-- descriptions services 3 --> */}
-              <div class="services_modal">
-                <div class="services_modal-content">
-                  <i class="uil uil-times services_modal-close"></i>
+              <div className="services_modal">
+                <div className="services_modal-content">
+                  <i className="uil uil-times services_modal-close"></i>
 
-                  <h3 class="services_modal-title">Desenvolvimento Mobile</h3>
-                  <p class="services_modal-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum
+                  <h3 className="services_modal-title">Desenvolvimento Mobile</h3>
+                  <p className="services_modal-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum
                     dolor, vitae aliquam officiis eveniet corrupti. </p>
 
-                  <ul class="services_modal-services grid">
-                    <li class="services_modal-service">
-                      <i class="uil uil-check-circle services_modal-icon"></i>
-                      <p class="services_modal-info">Desenvolvimento das interfaces de usuario.</p>
+                  <ul className="services_modal-services grid">
+                    <li className="services_modal-service">
+                      <i className="uil uil-check-circle services_modal-icon"></i>
+                      <p className="services_modal-info">Desenvolvimento das interfaces de usuario.</p>
                     </li>
-                    <li class="services_modal-service">
-                      <i class="uil uil-check-circle services_modal-icon"></i>
-                      <p class="services_modal-info">Desenvolvimento de Páginas Web.</p>
+                    <li className="services_modal-service">
+                      <i className="uil uil-check-circle services_modal-icon"></i>
+                      <p className="services_modal-info">Desenvolvimento de Páginas Web.</p>
                     </li>
-                    <li class="services_modal-service">
-                      <i class="uil uil-check-circle services_modal-icon"></i>
-                      <p class="services_modal-info">Criação de Elemtos UX com Interação.</p>
+                    <li className="services_modal-service">
+                      <i className="uil uil-check-circle services_modal-icon"></i>
+                      <p className="services_modal-info">Criação de Elemtos UX com Interação.</p>
                     </li>
-                    <li class="services_modal-service">
-                      <i class="uil uil-check-circle services_modal-icon"></i>
-                      <p class="services_modal-info">Desenvolvimento de Formulários</p>
+                    <li className="services_modal-service">
+                      <i className="uil uil-check-circle services_modal-icon"></i>
+                      <p className="services_modal-info">Desenvolvimento de Formulários</p>
                     </li>
-                    <li class="services_modal-service">
-                      <i class="uil uil-check-circle services_modal-icon"></i>
-                      <p class="services_modal-info">Desiner e Mockups de produtos para empresas.</p>
+                    <li className="services_modal-service">
+                      <i className="uil uil-check-circle services_modal-icon"></i>
+                      <p className="services_modal-info">Desiner e Mockups de produtos para empresas.</p>
                     </li>
                   </ul>
                 </div>
@@ -627,73 +627,153 @@ function App() {
         {/* <!-- =========== FIM Service ========  --> */}
 
         {/* <!-- =========== Testimonials ======== --> */}
-        {/* <section class="testimonials section">
-          <h2 data-heading="O que meus Clientes falam" class="section_title">Feedbacks</h2>
+        {/* <section className="testimonials section">
+          <h2 data-heading="O que meus Clientes falam" className="section_title">Feedbacks</h2>
 
-          <div class="testimonials_container container swiper">
-            <div class="swiper-wrapper">
+          <div className="testimonials_container container swiper">
+            <div className="swiper-wrapper">
 
               <!-- FEEDBACK 1 -->
-              <div class="testimonial_card swiper-slide">
-                <div class="testimonial_quote">
-                  <i class='bx bxs-quote-alt-left'></i>
+              <div className="testimonial_card swiper-slide">
+                <div className="testimonial_quote">
+                  <i className='bx bxs-quote-alt-left'></i>
                 </div>
-                <p class="testimonial_description">
+                <p className="testimonial_description">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis
                   voluptates expedita sit.</p>
-                <h3 class="testimonial_date">Março 27.2022</h3>
-                <div class="testimonial_profile">
-                  <img src="./assets/testimonial1.webp" alt="" class="testimonial_profile-img" />
+                <h3 className="testimonial_date">Março 27.2022</h3>
+                <div className="testimonial_profile">
+                  <img src="./assets/testimonial1.webp" alt="" className="testimonial_profile-img" />
 
-                    <div class="testimonial_profile-data">
-                      <span class="testimonial_profile-name">Exemplo Speak</span>
-                      <span class="testimonial_profile-detail">Cargo e Empresa</span>
+                    <div className="testimonial_profile-data">
+                      <span className="testimonial_profile-name">Exemplo Speak</span>
+                      <span className="testimonial_profile-detail">Cargo e Empresa</span>
                     </div>
                 </div>
               </div>
 
               <!-- FEEDBACK 2 -->
-              <div class="testimonial_card swiper-slide">
-                <div class="testimonial_quote">
-                  <i class='bx bxs-quote-alt-left'></i>
+              <div className="testimonial_card swiper-slide">
+                <div className="testimonial_quote">
+                  <i className='bx bxs-quote-alt-left'></i>
                 </div>
-                <p class="testimonial_description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis
+                <p className="testimonial_description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis
                   voluptates expedita sit.</p>
-                <h3 class="testimonial_date">Março 27.2022</h3>
-                <div class="testimonial_profile">
-                  <img src="./assets/testimonial2.jpg" alt="" class="testimonial_profile-img" />
+                <h3 className="testimonial_date">Março 27.2022</h3>
+                <div className="testimonial_profile">
+                  <img src="./assets/testimonial2.jpg" alt="" className="testimonial_profile-img" />
 
-                  <div class="testimonial_profile-data">
-                    <span class="testimonial_profile-name">Exemplo Speak</span>
-                    <span class="testimonial_profile-detail">Cargo e Empresa</span>
+                  <div className="testimonial_profile-data">
+                    <span className="testimonial_profile-name">Exemplo Speak</span>
+                    <span className="testimonial_profile-detail">Cargo e Empresa</span>
                   </div>
                 </div>
               </div>
 
               <!-- FEEDBACK 3 -->
-              <div class="testimonial_card swiper-slide">
-                <div class="testimonial_quote">
-                  <i class='bx bxs-quote-alt-left'></i>
+              <div className="testimonial_card swiper-slide">
+                <div className="testimonial_quote">
+                  <i className='bx bxs-quote-alt-left'></i>
                 </div>
-                <p class="testimonial_description">
+                <p className="testimonial_description">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis
                   voluptates expedita sit.</p>
-                <h3 class="testimonial_date">Março 27.2022</h3>
-                <div class="testimonial_profile">
-                  <img src="./assets/testimonial3.webp" alt="" class="testimonial_profile-img" />
+                <h3 className="testimonial_date">Março 27.2022</h3>
+                <div className="testimonial_profile">
+                  <img src="./assets/testimonial3.webp" alt="" className="testimonial_profile-img" />
 
-                    <div class="testimonial_profile-data">
-                      <span class="testimonial_profile-name">Exemplo Speak</span>
-                      <span class="testimonial_profile-detail">Cargo e Empresa</span>
+                    <div className="testimonial_profile-data">
+                      <span className="testimonial_profile-name">Exemplo Speak</span>
+                      <span className="testimonial_profile-detail">Cargo e Empresa</span>
                     </div>
                 </div>
               </div>
             </div>
-            <div class="swiper-pagination"></div>
+            <div className="swiper-pagination"></div>
           </div>
 
         </section> */}
         {/* <!-- =========== FIM Testimonials ======== --> */}
+
+
+        {/* <!-- =========== Contact ========  --> */}
+        <section className="contact section" id="contact">
+          <h2 data-heading="Entre em Contato" className="section_title">Contato</h2>
+
+          <div className="contact_container container grid">
+            <div className="contact_content">
+              <div className="contact_info">
+
+                {/* <!-- Contato Email --> */}
+                <div className="contact_card">
+                  <i className="uil uil-envelope-edit contact_card-icon "></i>
+                  <h3 className="contact_card-title">E-mail</h3>
+                  <span className="contact_card-data">raul_sigoli@hotmail</span>
+                  <a href="mailto:raul_sigoli@hotmail" target="_blank">
+                    <span className="contact_button">
+                      Mandar Email <i className="uil uil-arrow-right contact_button-icon"></i>
+                    </span>
+                  </a>
+                </div>
+                {/* <!-- Contato WhatsApp --> */}
+                <div className="contact_card">
+                  <i className="uil uil-whatsapp contact_card-icon "></i>
+                  <h3 className="contact_card-title">WhatsApp</h3>
+                  <span className="contact_card-data">(44) 9 9165-8351</span>
+                  <a href="http://WA.me/5544991658351" target="_blank">
+                    <span className="contact_button">
+                      Chamar no WhatsApp <i className="uil uil-arrow-right contact_button-icon"></i>
+                    </span>
+                  </a>
+                </div>
+                {/* <!-- Contato Telegram --> */}
+                <div className="contact_card">
+                  <i className="uil uil-telegram contact_card-icon "></i>
+                  <h3 className="contact_card-title">Telegram</h3>
+                  <span className="contact_card-data">(44) 9 9165-8351</span>
+                  <a href="https://t.me/raul_sigoli" target="_blank">
+                    <span className="contact_button">
+                      Chamar no Telegram<i className="uil uil-arrow-right contact_button-icon"></i>
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            {/* <!-- formulario --> */}
+            <div className="contact_content">
+              <form action="https://formspree.io/f/mqknoyvn" method="POST" className="contact_form">
+
+                {/* <!-- Nome --> */}
+                <div className="input_container">
+                  <input type="text" className="input" required name="fname" placeholder="Nome" />
+                </div>
+
+                {/* <!-- E-mail --> */}
+                <div className="input_container">
+                  <input type="email" className="input" required email="femail" placeholder="E-mail" />
+                </div>
+
+                {/* <!-- Telefone --> */}
+                <div className="input_container">
+                  <input type="tel" className="input" required tel="ftel" placeholder="Telefone" />
+                </div>
+
+                {/* <!-- Mensagem --> */}
+                <div className="input_container textarea">
+                  <textarea name="" id="" className="input" required textarea="ftextarea" placeholder="Mensagem" ></textarea>
+
+                </div>
+                {/* <!-- Botao enviar mensagem --> */}
+                <button type="submit" className="button">
+                  <i className="uil uil-navigator button_icon"></i>
+                  Enviar Mesagem
+                </button>
+              </form>
+
+            </div>
+          </div>
+        </section>
+        {/* <!-- =========== FIM Contact ========  --> */}
 
 
       </main>
