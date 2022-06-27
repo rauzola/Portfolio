@@ -451,6 +451,180 @@ function App() {
         </section>
         {/* <!-- =========== FIM Work ========  --> */}
 
+
+        {/* <!-- PORTFOLIO POPUP --> */}
+        <div class="portfolio_popup">
+          <div class="portfolio_popup-inner">
+            <div class="portfolio_popup-content grid">
+              <span class="portfolio_popup-close"><i class="uil uil-times"></i></span>
+              <div class="pp_thumbnail">
+                <img src="./assets/em breve.webp" alt="" class="portfolio_popup-img" />
+              </div>
+              <div class="portfolio_popup-info">
+                <div class="portfolio_popup-subtitle">Feature - <span>Design</span></div>
+                <div class="portfolio_popup-body">
+                  <h3 class="details_title">
+                    Lorem ipsum dolor sit amet consectetur.</h3>
+                  <p class="details_description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus maiores
+                    exercitationem numquam.</p>
+                  <ul class="details_info">
+                    <li>Criado - <span>19 Jun 2022</span></li>
+                    <li>Tecnologias - <span>html css javascript</span></li>
+                    <li>Função - <span>FrontEnd</span></li>
+                    <li>Visão - <span><a href="#">em breve</a></span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* <!-- FIM PORTFOLIO POPUP --> */}
+
+        {/* <!-- =========== Service ========  --> */}
+    <section class="services section" id="services">
+      <h2 data-heading="Meus Serviços" class="section_title">O que eu ofereço</h2>
+      <div class="services_container container grid">
+
+        {/* <!-- services 1 --> */}
+        <div class="services_content">
+          <div>
+            <i class="uil uil-web-grid services_icon"></i>
+            <h3 class="services_title">Desenvolvimento <br /> WEB</h3>
+          </div>
+          <span class="services_button">
+            Veja Mais <i class="uil uil-arrow-right services_button-icon"></i>
+          </span>
+
+          {/* <!-- descriptions services 1 --> */}
+          <div class="services_modal">
+            <div class="services_modal-content">
+              <i class="uil uil-times services_modal-close"></i>
+
+              <h3 class="services_modal-title">Desenvolvimento WEB</h3>
+              <p class="services_modal-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum
+                dolor, vitae aliquam officiis eveniet corrupti. </p>
+
+              <ul class="services_modal-services grid">
+                <li class="services_modal-service">
+                  <i class="uil uil-check-circle services_modal-icon"></i>
+                  <p class="services_modal-info">Desenvolvimento das interfaces de usuario.</p>
+                </li>
+                <li class="services_modal-service">
+                  <i class="uil uil-check-circle services_modal-icon"></i>
+                  <p class="services_modal-info">Desenvolvimento de Páginas Web.</p>
+                </li>
+                <li class="services_modal-service">
+                  <i class="uil uil-check-circle services_modal-icon"></i>
+                  <p class="services_modal-info">Criação de Elemtos UX com Interação.</p>
+                </li>
+                <li class="services_modal-service">
+                  <i class="uil uil-check-circle services_modal-icon"></i>
+                  <p class="services_modal-info">Desenvolvimento de Formulários</p>
+                </li>
+                <li class="services_modal-service">
+                  <i class="uil uil-check-circle services_modal-icon"></i>
+                  <p class="services_modal-info">Desiner e Mockups de produtos para empresas.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        {/* <!-- services 2 --> */}
+        <div class="services_content">
+          <div>
+            <i class="uil uil-arrow services_icon"></i>
+            <h3 class="services_title">Desenvolvimento <br /> Backend</h3>
+          </div>
+          <span class="services_button">
+            Veja Mais <i class="uil uil-arrow-right services_button-icon"></i>
+          </span>
+
+          {/* <!-- descriptions services 2 --> */}
+          <div class="services_modal">
+            <div class="services_modal-content">
+              <i class="uil uil-times services_modal-close"></i>
+
+              <h3 class="services_modal-title">Desenvolvimento Backend</h3>
+              <p class="services_modal-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum
+                dolor, vitae aliquam officiis eveniet corrupti. </p>
+
+              <ul class="services_modal-services grid">
+                <li class="services_modal-service">
+                  <i class="uil uil-check-circle services_modal-icon"></i>
+                  <p class="services_modal-info">Desenvolvimento das interfaces de usuario.</p>
+                </li>
+                <li class="services_modal-service">
+                  <i class="uil uil-check-circle services_modal-icon"></i>
+                  <p class="services_modal-info">Desenvolvimento de Páginas Web.</p>
+                </li>
+                <li class="services_modal-service">
+                  <i class="uil uil-check-circle services_modal-icon"></i>
+                  <p class="services_modal-info">Criação de Elemtos UX com Interação.</p>
+                </li>
+                <li class="services_modal-service">
+                  <i class="uil uil-check-circle services_modal-icon"></i>
+                  <p class="services_modal-info">Desenvolvimento de Formulários</p>
+                </li>
+                <li class="services_modal-service">
+                  <i class="uil uil-check-circle services_modal-icon"></i>
+                  <p class="services_modal-info">Desiner e Mockups de produtos para empresas.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        {/* <!-- services 3 --> */}
+        <div class="services_content">
+          <div>
+            <i class="uil uil-edit services_icon"></i>
+            <h3 class="services_title">Desenvolvimento <br /> Mobile</h3>
+          </div>
+          <span class="services_button">
+            Veja Mais <i class="uil uil-arrow-right services_button-icon"></i>
+          </span>
+
+          {/* <!-- descriptions services 3 --> */}
+          <div class="services_modal">
+            <div class="services_modal-content">
+              <i class="uil uil-times services_modal-close"></i>
+
+              <h3 class="services_modal-title">Desenvolvimento Mobile</h3>
+              <p class="services_modal-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum
+                dolor, vitae aliquam officiis eveniet corrupti. </p>
+
+              <ul class="services_modal-services grid">
+                <li class="services_modal-service">
+                  <i class="uil uil-check-circle services_modal-icon"></i>
+                  <p class="services_modal-info">Desenvolvimento das interfaces de usuario.</p>
+                </li>
+                <li class="services_modal-service">
+                  <i class="uil uil-check-circle services_modal-icon"></i>
+                  <p class="services_modal-info">Desenvolvimento de Páginas Web.</p>
+                </li>
+                <li class="services_modal-service">
+                  <i class="uil uil-check-circle services_modal-icon"></i>
+                  <p class="services_modal-info">Criação de Elemtos UX com Interação.</p>
+                </li>
+                <li class="services_modal-service">
+                  <i class="uil uil-check-circle services_modal-icon"></i>
+                  <p class="services_modal-info">Desenvolvimento de Formulários</p>
+                </li>
+                <li class="services_modal-service">
+                  <i class="uil uil-check-circle services_modal-icon"></i>
+                  <p class="services_modal-info">Desiner e Mockups de produtos para empresas.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        </div>
+
+
+    </section>
+
       </main>
 
     </>
