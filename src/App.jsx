@@ -773,7 +773,46 @@ function App() {
             </div>
           </div>
         </section>
-        {/* <!-- =========== FIM Contact ========  --> */}
+        {/* <!-- =========== FIM   Contact ========  --> */}
+
+        {/* <!-- ==== FOOTER ==== --> */}
+        <footer class="footer">
+          <div class="footer_bg">
+            <div class="footer_container container grid">
+              <div>
+                <h1 class="footer_title">Raul Sigoli</h1>
+                <span class="footer_subtitle">Desenvolvedor Frontend</span>
+              </div>
+
+              {/* <!-- MENUS FOOTER --> */}
+              <ul class="footer_links">
+                <li>
+                  <a href="#services" class="footer_link">Services</a>
+                </li>
+                <li>
+                  <a href="#work" class="footer_link">Work</a>
+                </li>
+                <li>
+                  <a href="#contact" class="footer_link">Contact</a>
+                </li>
+              </ul>
+
+              {/* <!-- REDES SOCIAIS --> */}
+              <div class="footer_socials">
+                <a href="https://www.instagram.com/raul_sigoli/" target="_blank" class="footer_social">
+                  <i class="uil uil-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/raul-sigoli-137bb4173/" target="_blank" class="footer_social">
+                  <i class="uil uil-linkedin"></i></a>
+                <a href="https://github.com/rauzola" target="_blank" class="footer_social">
+                  <i class="uil uil-github"></i>
+                </a>
+              </div>
+            </div>
+            <p class="footer_copy">&#169; Desenvolvido junto com Crypticalcodes. All right reserved</p>
+          </div>
+        </footer>
+        {/* <!-- ==== FIM FOOTER ==== --> */}
 
 
       </main>
