@@ -178,7 +178,7 @@ function App() {
 
 
         {/* <!-- =========== Qualification ========  --> */}
-        <section className="qualification section">
+        <section className="qualification section" id="skills">
           <h2 data-heading="Minha Jornada" className="section_title">Qualificação</h2>
 
           <div className="qualification_container container grid">
